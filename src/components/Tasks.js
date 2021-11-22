@@ -1,7 +1,7 @@
 import Task from "./Task";
 
-const Tasks = ({tasks, onDelete, onToggle}) => {
-  
+const Tasks = (props) => {
+  const {tasks, onDelete, onToggle} = props;
   
 //   setTasks([...tasks, { id: 3,
 //     text: "Food Shopping",
